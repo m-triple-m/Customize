@@ -1,0 +1,63 @@
+.main {
+  padding: 5rem 0;
+  background: red;
+  height: 100vh;
+  background: url(back.jpg) no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.chrome-card {
+  background: #ffffff00;
+  border-radius: 0.4rem;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  transition-duration: 200ms;
+}
+
+.chrome-card:hover {
+  cursor: pointer;
+  background: #0000001f;
+  transform: translateY(-5px);
+  box-shadow: 1px 3px 5px -5px rgba(0, 0, 0, 0.281);
+}
+
+.chrome-card:active {
+  outline: 1px solid white;
+}
+
+.chrome-card-body {
+  padding: 1rem;
+}
+
+.chrome-card .shortcut-icon {
+  width: 100%;
+}
+
+.shortcut-text {
+  text-align: center;
+  /* font-weight: bold; */
+  color: white;
+  font-family: Caveat;
+  font-size: 1.5em;
+}
+
+.shortcut-icon {
+  background-repeat: no-repeat;
+  height: 6rem;
+  background-size: cover;
+  background-position: center;
+  /* border-radius: 5rem; */
+}
+
+/* .grid-row {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(300px, 1fr) 1fr);
+  column-gap: 1rem;
+  row-gap: 2rem;
+}
+
+.grid-col {
+  margin-top: 5rem;
+  width: 10rem;
+} */

@@ -1,0 +1,31 @@
+.logo-img-top {
+  max-width: 100%;
+  margin: auto;
+  display: block;
+}
+
+.link-title {
+  text-align: center;
+  /* font-size: 1rem; */
+}
+
+.logo-card {
+  background: #ffffff00;
+  border-radius: 0.4rem;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  transition-duration: 200ms;
+  min-height: 100%;
+}
+
+.logo-card:hover {
+  cursor: pointer;
+  background: #0000001f;
+  transform: translateY(-5px);
+  box-shadow: 1px 3px 5px -5px rgba(0, 0, 0, 0.281);
+}
+
+.logo-card-body {
+  height: 100%;
+  align-items: center;
+}
